@@ -1,0 +1,42 @@
+body {
+    background-color: white;
+}
+
+#red-nav {
+    background-color: red;
+}
+
+#white-nav {
+    background-color: white;
+    font-family: 'Aachen', sans-serif;
+    font-weight: bold;
+    overflow: hidden;
+    color:black
+}
+
+#white-nav nav div {
+    float: left;
+    background-color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    color:black
+  }
+  
+  /* Change the color of links on hover */
+#white-nav nav div:hover {
+    background-color: black;
+    color: white
+  }
+  
+
+#pizzahut-logo  {
+    width: 12vw;
+
+}
+#nav-house {
+    color:black;
+    background-color: white;
+    width: 10vw;
+}
