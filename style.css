@@ -1,42 +1,223 @@
-body {
-    background-color: white;
+#red-nav {
+    background-color: #C8102E;
+    overflow: hidden;
+    margin:auto;
+    display: flex;
+    height: 6vh;
 }
 
-#red-nav {
-    background-color: red;
+#red-nav div{
+    float: left;
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Aachen', sans-serif;
+    font-weight: 100;
+    color: #F98B05;
+    display: flex;
+    height: 20vh;
+    width:20vw;
+    padding: 0px;
+    margin-left: 22vw;
+    padding-top: 1.5vh;
 }
+
+#red-nav div a:hover{
+    color: #F98B05;
+    text-decoration: None;
+}
+
 
 #white-nav {
     background-color: white;
     font-family: 'Aachen', sans-serif;
     font-weight: bold;
     overflow: hidden;
-    color:black
+    color:black;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-#white-nav nav div {
+.white-nav-element{
     float: left;
+    margin: 0;
     background-color: white;
     text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
     font-size: 17px;
-    color:black
+    color:black;
+    height:8.4vh;
+    padding: 16px;
+    padding-top:20px;
+    vertical-align: middle;
+    position: relative;
+    overflow: hidden;
+    align-items: center;
   }
+img.white-nav-element {
+    max-width: 100%; 
+    height: 5vh;
+    padding:0;
+    margin-top:1.5vh;
+}
+
+#active {
+    background-color: #C8102E !important;
+    color: white !important;
+}
+
+.active {
+    color: #F98B05;
+}
   
-  /* Change the color of links on hover */
 #white-nav nav div:hover {
     background-color: black;
-    color: white
-  }
-  
-
-#pizzahut-logo  {
-    width: 12vw;
-
+    color: white;
 }
+#white-nav a:hover{
+    text-decoration: None;
+    color:white;
+}
+  
 #nav-house {
     color:black;
     background-color: white;
     width: 10vw;
+}
+
+.headerDivider {
+    border-left: 1px solid rgba(0, 0, 0, .2);;
+    border-radius: 50%;
+    margin-top: 1.5vh;
+    height: 5vh;
+    float: left;
+}
+
+.menu-entrega-domicilio {
+    background-color: #B10E2B;
+    color:white;
+    height: 5vh;
+    font-size: 12px;
+    vertical-align: middle;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    padding-left: 22vw;
+    -webkit-box-shadow: inset 0px -9px 40px -29px rgba(0,0,0,0.92);
+    -moz-box-shadow: inset 0px -9px 40px -29px rgba(0,0,0,0.92);
+    box-shadow: inset 0px -9px 40px -29px rgba(0,0,0,0.92);
+}
+.menu-entrega-domicilio div {
+    padding-right: 16px;
+}
+
+.menu-entrega-domicilio div a:hover{
+    text-decoration: None;
+    color: #F98B05;
+}
+
+div.section-title {
+    color: #454545;
+    font-size:19px;
+    font-family: 'Aachen', sans-serif;
+    font-weight: 100;
+    text-align: center;
+    float: left;
+    padding-right:10vw;
+    padding-left: 36vw;
+}   
+
+section.entregas {
+    width: 100vw;
+    align-items: center;
+    padding-top: 2.7vh;
+}
+div.horarios-entregas {
+    padding-left: 20vw;
+}
+div.horarios-entregas > a{
+    font-size:12px;
+    width: 20vw;
+    padding:0;
+    display: flex;
+    vertical-align: middle;
+}
+div.horarios-entregas > a > i {
+    float: left;
+    width:1vw;
+    vertical-align: middle;
+}
+div.horarios-entregas > a > p {
+    width:5vw;
+    line-height: 90%;
+    vertical-align: middle;
+    padding-top:0.7vh;
+}
+
+div.horarios-entregas > a:hover {
+    color:red;
+    text-decoration: None;
+}
+
+.entregas {
+    height: 9vh;
+}
+
+.menu-familiar {
+    width:100%;
+    float:left;
+}
+
+.menu-familiar img {
+    display: block;
+    margin: 2vh auto;
+}
+.encomende-ja {
+    width: 80vw;
+}
+.encomende-ja-text {
+    float: left;
+    border-top: 4px solid #898989;
+    border-bottom: 1px solid rgba(77, 68, 68, 0.2);
+    height: 6vh;
+    font-size:14px;
+    color: #898989;
+    font-family: 'Aachen', sans-serif;
+    width: 71%;
+    text-align: center;
+    display: inline-block;
+    margin: 2.5vh auto;
+    margin-left: 21.5vw;
+    padding: 1.5vh 0;
+}
+
+.encomende-ja-elements {
+    font-family: 'Aachen', sans-serif;
+    color: #888888;
+    float: left;
+    text-align:center;
+    width: 26%;
+    margin-left: 4vw;
+}
+.encomende-ja-container {
+    margin-left: 32vw;
+}
+.encomende-ja-elements .title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.encomende-ja-elements .subtitle {
+    font-size: 12px;
+    font-weight: bold;
+    color:rgba(54, 49, 49, 0.9);
+    font-family: sans-serif;
+    padding-bottom: 24px;
+}
+
+.encomende-ja-elements .description {
+    font-size: 12px;
+    font-family: "Ropa-Sans", sans-serif;
 }

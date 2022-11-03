@@ -8,35 +8,77 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
     <link href="http://fonts.cdnfonts.com/css/aachen" rel="stylesheet">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Pizza Hut</title>
 </head>
 <body>
     <div id="white-nav">
         <nav>
-            <div class="white-nav-element"><img id="pizzahut-logo" src="pizza-hut-png-logo-0.png" alt="Pizza Hut Logo"><i class="fa-regular fa-house"></i>
+            <img id="pizzahut-logo" class="white-nav-element" src="pizza-hut-png-logo-1.png" alt="Pizza Hut Logo"><i class="fa-regular fa-house"></i>
+            <div class="white-nav-element">
+                <i class="fa fa-home"></i>
+            </div>
+            <div class="headerDivider"></div>
+            <div class="white-nav-element">
+                <a>NO RESTAURANTE</a>
+            </div>
+            <div id ="active" class="active white-nav-element">
+                <a>EM TUA CASA</a>
             </div>
             <div class="white-nav-element">
-                <i id="nav-house" class="fa-regular fa-house"></i>
+                <a>ONDE ESTAMOS</a>
             </div>
+            <div class="headerDivider"></div>
             <div class="white-nav-element">
-                <p>NO RESTAURANTE</p>
-            </div>
-            <div class="white-nav-element">
-                <p>EM TUA CASA</p>
-            </div>
-            <div class="white-nav-element">
-                <p>ONDE ESTAMOS</p>
-            </div>
-
-            <div class="white-nav-element">
-                <p>ENCOMENDE JÁ</p>
+                <a>ENCOMENDE JÁ</a>
             </div>
         </nav>
     </div>
-    <nav id ="red-nav"></nav>
-    <section>
-        <div></div>
-        <div></div>
+    <nav id ="red-nav">
+            <div>
+                <a href="">ENTREGA AO DOMICÍLIO</a>
+            </div>
+    </nav>
+    <div class="menu-entrega-domicilio">
+        <div class="active">
+            <a href="">Promoções</a>
+        </div>
+        <div>
+            <a href="">Ementa Domicílio</a>
+        </div>
+        <div>
+            <a href="">Localiza uma Loja</a>
+        </div>
+    </div>
+    <section class="entregas">
+        <div class="section-title">
+            <p>PROMOÇÕES PARA ENTREGA AO DOMICÍLIO</p>
+        </div>
+        <div class="horarios-entregas">
+            <a href="">
+                <p>HORÁRIOS DE ENTREGAS</p>
+                <i class="fa fa-clock-o" style="font-size:36px"></i>
+            </a>
+        </div>
+        <div class="menu-familiar">
+            <img src="menu_familiar_pizza.jpg" alt="">
+        </div>
+    </section>
+    <section class="encomende-ja">
+        <div class="encomende-ja-text">ENCOMENDE JÁ</div>
+        <div class="encomende-ja-container">
+            <div class="encomende-ja-elements">
+                <div class="title"> ONLINE </div>
+                <div class="subtitle"> Encomende Online</div>
+                <div class="description"> Faça a sua encomenda com toda comodidade apenas com um clique. </div>
+            </div>
+            <div class="encomende-ja-elements">
+                <div class="title"> 222 444 222 </div>
+                <div class="subtitle"> Encomende pelo telefone</div>
+                <div class="description"> A nossa linha de apoio está pronta para o ajudar com a sua encomenda.</div>
+            </div>
+        </div>
     </section>
     <footer></footer>
 </body>
