@@ -142,6 +142,7 @@ div.horarios-entregas > a{
     padding:0;
     display: flex;
     vertical-align: middle;
+    text-decoration: None;
 }
 div.horarios-entregas > a > i {
     float: left;
